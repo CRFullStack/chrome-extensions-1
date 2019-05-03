@@ -13,6 +13,11 @@
   "chrome_url_overrides": {
     "newtab": "HTML/override.html"
   },
-  "permissions": ["https://source.unsplash.com/", "http://quotes.rest/"],
+
+  "permissions": [
+    "https://source.unsplash.com/",
+    "http://quotes.rest/",
+    "bookmarks"
+  ],
   "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
 }

@@ -2,6 +2,7 @@
 body {
   background-image: url("https://source.unsplash.com/category/nature/1600x900");
   background-repeat: no-repeat;
+  background-size: cover;
   height: 100%;
   width: auto;
 }
@@ -12,11 +13,40 @@ h1 {
   color: #fff;
   text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.75);
 }
+
+ul {
+  font-family: "Courier New", Courier, monospace "PT Serif", serif;
+  font-size: 2em;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(150, 150, 150, 0.75);
+  list-style-type: none;
+  border: solid gray;
+}
+/* A link that has not been visited */
+a:link {
+  color: pink;
+}
+
+/* A link that has been visited */
+a:visited {
+  color: pink;
+}
+
+/* A link that is hovered on */
+a:hover {
+  color: blue;
+}
+
+/* A link that is selected */
+a:active {
+  color: green;
+}
 .quote {
   color: #ffffff;
   text-align: center;
   vertical-align: middle;
-  padding: 19% 15% 0 15%;
+  padding: 5%;
 }
 
 #quoteblock {

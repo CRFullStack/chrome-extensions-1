@@ -1,6 +1,13 @@
 $(function() {
   var url = "http://quotes.rest/qod.json";
   var quote = $("#quoteblock"); // the id of the heading
+  var tab = $("#tab");
+  var browser = chrome.bookmarks;
+  // var gettingActiveTab = chrome.tabs.query({
+  //   active: true,
+  //   currentWindow: true
+  // });
+
   $.get(url, function(data) {
     var the_quote = data;
     quote.text(the_quote.contents.quotes[0].quote);
